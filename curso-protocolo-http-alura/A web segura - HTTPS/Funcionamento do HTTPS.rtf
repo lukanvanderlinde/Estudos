@@ -1,0 +1,16 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Para que essa pagina se torne segura no protocolo HTTPS \'e9 preciso que se tenha uma identidade confirmada, no caso, um certificado digital, que possui uma chave p\'fablica para que os dados sejam enviados ao servidor que possui uma chave privada que s\'f3 ela consegue abrir os pacotes de dados.\
+\
+As chaves est\'e3o ligadas matematicamente, o que foi cifrado pela chave publica s\'f3 pode ser decifrado pela chave privada,  isso garante que os dados cifrados pelo navegador, s\'f3 podem ser lidos pelo servidor.\
+\
+Como temos duas chaves diferentes envolvidas, esse metodo de criptografia \'e9 chamado de criptografia assim\'e9trica, por possuir duas chaves, no entanto ela tem um problema que \'e9 a lentid\'e3o.\
+\
+Por outro lado, temos a criptografia simetria, que usa a mesma chave para cifrar e decifrar os dados, como na vida real, onde usamos a mesma chave para abrir e fechar a porta, essa criptografia \'e9 muito mais r\'e1pida, mas infelizmente n\'e3o t\'e3o segura, como existe apenas uma chave, qualquer um que tem a posse dela pode decifrar a comunica\'e7\'e3o.\
+\
+O  interessante \'e9 que o HTTPS usa ambos m\'e9todos de criptografia, no certificado vem a chave publica para o cliente utilizar, o servidor continua com a chave privada, esse metodo \'e9 seguro mas lento, por isso o cliente gera uma chave s\'f3 pra ele e o servidor com o qual est\'e1 se comunicando naquele momento, Essa chave exclusiva \'e9 ent\'e3o enviada ao servidor usando a criptografia assim\'e9trica e depois disso garante a comunica\'e7\'e3o sim\'e9trica.}

@@ -1,0 +1,126 @@
+/*
+==============================================
+=                Starbuzz CSS                =
+==============================================
+*/
+
+body {
+  background-color: #b5a789;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: small;
+  margin: 0px;
+  padding: 0px;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header, footer {
+  background-color: #675c47;
+}
+
+header {
+  margin-top: 1em;
+  margin-right: 1em;
+  margin-left: 1em;
+  padding-top: 0.2em;
+  height: 8.4em;
+}
+
+.logo {
+  padding-left: 1em;
+}
+
+.tagline {
+  position: absolute;
+  right: 1em;
+}
+
+.award {
+  position: absolute;
+  top: 2.2em;
+  left: 40%;
+}
+
+.coupon {
+  position: fixed;
+  top: 22em;
+  left: -6.4em;
+}
+
+.coupon a, img {
+  border: none;
+}
+
+.table {
+  display: table;
+  border-spacing: 1em;
+}
+
+.row {
+  display: table-row;
+}
+
+.main, aside, .drinks {
+  vertical-align: top;
+  display: table-cell;
+  background-color: #efe5d0;
+  padding: 1.2em;
+}
+
+.main, aside {
+  background-image: url(./images/background.gif);
+  font-size: 105%;
+}
+
+.main {
+  background-position: top left;
+}
+
+aside {
+  background-position: bottom right;
+}
+
+.drinks {
+  width: 20%;
+}
+
+footer {
+  color: #efe5d0;
+  text-align: center;
+  padding: 1.2em;
+  margin-right: 1em;
+  margin-left: 1em;
+  font-size: 90%;
+}
+
+h1, .slogan {
+  color: #954b4b;
+}
+
+h1 {
+  font-size: 120%;
+}
+
+.beanheading {
+  text-align: center;
+  line-height: 1.8em;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: thin;
+  border-bottom-style: dotted;
+}
+
+a:link {
+  color: #b76666;
+  border-bottom-color: #b76666;
+}
+
+a:visited {
+  color: #675c47;
+  border-bottom-color: #675c47;
+}

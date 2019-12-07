@@ -1,0 +1,92 @@
+body {
+  font-size: small;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  line-height: 1.6em;
+}
+
+h1, h2 {
+  color: #007e7e;
+}
+
+h1 {
+  font-size: 3.1em;
+}
+
+h2 {
+  font-size: 2.3em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.3em;
+}
+
+h6 {
+  font-size: 1.2em;
+}
+
+#guarantee {
+  line-height: 1.9em;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #444444;
+  
+  border-color: white;
+  border-width: thin;
+  border-style: dashed;
+
+  background: #a7cece;
+  background-image: url("./images/background.gif");
+  background-repeat: no-repeat;
+  background-position: top left;
+
+  padding: 2em;
+  padding-left: 6em;
+  margin: 2em;
+  margin-right: 18em;
+}
+
+#elixirs {
+  border-width: thin;
+  border-style: solid;
+  border-color: #007e7e;
+
+  text-align: center;
+  line-height: normal;
+  
+  width: 16em;
+
+  padding-right: 1.2em;
+  padding-left: 1.2em;
+  padding-bottom: 1.2em;
+
+  margin-left: 1.2em;
+
+  background-image: url("./images/cocktail.gif");
+  background-repeat: repeat-x;
+}
+
+#elixirs h2 {
+  color: #000000;
+  font-size: 1.5em;
+}
+
+#elixirs h3 {
+  color: #d12c47;
+  font-size: 1.3em;
+}
+
+.cd {
+  font-style: italic;
+}
+
+.artist {
+  font-weight: bold;
+}

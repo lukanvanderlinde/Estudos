@@ -1,0 +1,7 @@
+Para evitar o zoom out nos dispositivos mobile é preciso adicionar a tag meta:
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+Para arrumar o componentes no site ques estejam estranhos, basta procurar na documentação do bootstrap,
+nesse caso para fazer a imagem da empresa encaixar direitinho basta usar a classe .img-responsive.
+

@@ -1,0 +1,6 @@
+No PHP quando queremos passar parametros, usamos o ? e o &
+
+O código php fica sempre dentro da tag <?php ?> e as variáveis são representadas pelo cifrão $
+Para exibir dados na tela o comando é o echo
+
+Para utilizar pequenas informações em php as duas formas serve: <?php echo $nome; ?>, <?= $preco ?>

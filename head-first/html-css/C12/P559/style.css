@@ -1,0 +1,155 @@
+/*
+==============================================
+=                Starbuzz CSS                =
+==============================================
+*/
+
+body {
+  background-color: #b5a789;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: small;
+  margin: 0px;
+  padding: 0px;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top, footer {
+  background-color: #675c47;
+}
+
+.top {
+  margin-top: 1em;
+  margin-right: 1em;
+  margin-left: 1em;
+  padding-top: 0.2em;
+  height: 8.4em;
+}
+
+.logo {
+  padding-left: 1em;
+}
+
+.award, .tagline {
+  position: absolute;
+}
+
+.tagline {
+  right: 1em;
+}
+
+.award {
+  top: 2.2em;
+  left: 40%;
+}
+
+.table {
+  display: table;
+  border-spacing: 1em;
+}
+
+.row {
+  display: table-row;
+}
+
+.main, .blog, aside, .drinks, nav {
+  background-color: #efe5d0;
+}
+
+.main, .blog, aside, .drinks {
+  vertical-align: top;
+  display: table-cell;
+  padding: 1.2em;
+}
+
+.main, .blog, aside {
+  background-image: url(./images/background.gif);
+  font-size: 105%;
+}
+
+.main, .blog {
+  background-position: top left;
+}
+
+nav {
+  margin: 1em 1em 0em 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0.5em 0em 0.5em 0.5em;
+}
+
+nav ul li {
+  display: inline;
+  padding: 0.5em 1em 0.5em 0.5em;
+}
+
+nav ul li a:link, nav ul li a:visited {
+  color: #954b4b;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+nav ul li.selected {
+  background-color: #c8b99c;
+}
+
+aside {
+  background-position: bottom right;
+}
+
+.drinks {
+  width: 20%;
+}
+
+footer {
+  color: #efe5d0;
+  text-align: center;
+  padding: 1.2em;
+  margin-right: 1em;
+  margin-left: 1em;
+  font-size: 90%;
+}
+
+h1, .slogan {
+  color: #954b4b;
+}
+
+h1 {
+  font-size: 120%;
+}
+
+.beanheading {
+  text-align: center;
+  line-height: 1.8em;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: thin;
+  border-bottom-style: dotted;
+}
+
+a:link {
+  color: #b76666;
+  border-bottom-color: #b76666;
+}
+
+a:visited {
+  color: #675c47;
+  border-bottom-color: #675c47;
+}
+
+.coupon {
+  position: fixed;
+  top: 22em;
+  left: -6.4em;
+}
+
+.coupon a, img {
+  border: none;
+}

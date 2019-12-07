@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Emblema+One');
+
+body {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-size: small;
+}
+
+h1, h2 {
+  color: #cc6600;
+  /* text-decoration: underline; */
+  border-bottom: thin dotted #888888;
+}
+
+h1 {
+  font-family: "Emblema One", sans-serif;
+  font-size: 3.1em;
+}
+
+h2 {
+  font-size: 2.3em;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.3em;
+}
+
+h6 {
+  font-size: 1.2em;
+}
+
+blockquote {
+  font-style: italic;
+}
